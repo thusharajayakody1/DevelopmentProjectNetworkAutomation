@@ -1,4 +1,4 @@
 paramiko
 netmiko
-upgrade pip
+--upgrade pip
 napalm
