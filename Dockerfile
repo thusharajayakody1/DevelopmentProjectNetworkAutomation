@@ -9,7 +9,7 @@ COPY . .
 
 RUN apt-get install python -y
 RUN apt-get install build-essential libssl-dev libffi-dev -y
-RUN apt-get install python pip
+RUN apt-get install python-pip
 RUN pip install cryptography
 RUN pip install -r Buildjobpipfile.txt
 
